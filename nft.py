@@ -244,3 +244,21 @@ def run():
         "Action:",
         signer.context.operation
     )
+
+    print(
+        "Group:",
+        signer.context.group
+    )
+
+    print(
+        "Transaction Hash:"
+    )
+
+    print(
+        signed_tx.hash.hex()
+    )
+
+
+if __name__ == "__main__":
+    run()
+```
